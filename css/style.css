@@ -1,4 +1,4 @@
-:root{
+:root {
     --dorado: #ddbca7;
     --rosa-bebe: #ffe6ea;
     --blanco: #ffffff;
@@ -7,60 +7,69 @@
     --gris: #aaaaaa;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.style_logo{
+body{
+    overflow-x: hidden;
+}
+
+.style_logo {
     display: flex;
     justify-content: center;
     text-align: center;
     border: none;
 }
 
-.style_logo1{
+.style_logo1 {
     border: none;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(to right, #dbcac2, #e4cbc4, #f5e6e6, #f3dce4, #f2d4d7, #edc4cc);
 }
 
-.style_header{
+.style_header {
     text-align: center;
     gap: 4rem;
 }
 
 /*MAIN*/
 
-.style_card-home0{
+.style_card-home0 {
     border: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    /*
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: center;*/
 }
 
-.style_titulo-home{
+.style_titulo-home {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.style_p-home{
+.style_p-home {
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.style_card1-home{
+.style_card1-home {
     background-image: linear-gradient(to right, #dbcac2, #e4cbc4, #f5e6e6, #f3dce4, #f2d4d7, #edc4cc);
 }
 
-.style_card2-home{
+.style_card2-home {
     background-image: url(../img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,13 +81,13 @@ header{
     justify-content: center;
 }
 
-.style_h2-home{
+.style_h2-home {
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
-.style_card3-home{
+.style_card3-home {
     border: none;
     display: flex;
     justify-content: center;
@@ -86,23 +95,50 @@ header{
     background-color: transparent;
 }
 
-.style-card-home-3{
+.style-card-home-3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.style-card-home-4{
+.style-card-home-4 {
     border: none;
     background: transparent;
 }
 
-.btn-style{
+.btn-style {
     background-image: linear-gradient(to right, #dbcac2, #e4cbc4, #f5e6e6, #f3dce4, #f2d4d7, #edc4cc);
 }
 
 /*FOOTER*/
 
-footer{
+footer {
     background-color: var(--negrogris);
+}
+
+.style_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.style-input {
+    margin: 0;
+    border: none;
+    padding: 0.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: linear-gradient(to right, #dbcac2, #e4cbc4, #f5e6e6, #f3dce4, #f2d4d7, #edc4cc);
+}
+
+.style-button1 {
+    margin: 0;
+    border: none;
+    padding: 0.5rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(to right, #dbcac2, #e4cbc4, #f5e6e6, #f3dce4, #f2d4d7, #edc4cc);
 }
