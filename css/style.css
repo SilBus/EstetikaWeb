@@ -89,8 +89,12 @@ section {
     background-position: center;
 }
 
+.style_card-gp{
+    column-gap: 5rem;
+    margin-top: 3rem;
+}
+
 .style_card2-home {
-    padding-top: 3rem;
     padding-bottom: 3rem;
     margin: 0;
     display: flex;
@@ -99,8 +103,7 @@ section {
 
 .style_h2-home {
     text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .style_card3-home {
@@ -167,9 +170,10 @@ footer {
     background-image: linear-gradient(to right, #dbcac2, #e4cbc4, #f5e6e6, #f3dce4, #f2d4d7, #edc4cc);
 }
 
-/*SERVICIOS
+/*SERVICIOS*/
 
 .style-mn_servicios{
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
